@@ -1,5 +1,71 @@
+body{
+  background-color: #282c34;
+  color: #ffffff;
+}
+
 .App {
   text-align: center;
+  width: 80%;
+  height: 1500px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid #666;
+}
+
+.empForm{
+  /*width: 75%;*/
+  height: 330px;
+  margin: auto;
+  background: rgba(0,0,0,0.2);
+  padding: 30px;
+}
+
+.field{
+  width: 40%;
+  margin: 1% 5%;
+  text-align: left;
+  float: left;
+}
+.field label{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+.field input{
+  width: 80%;
+  border: 0px;
+  height: 30px;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+}
+
+.field2{
+  width: 50%;
+  float:left;
+}
+.field2 input{
+  width: 20%;
+}
+.field2 span{
+  width: 50%;
+  display: block;
+  margin-left: 45px;
+  margin-top: -27px;
+  float: left;  
+}
+
+.empForm button{
+  border: 0px;
+  padding: 10px 30px;
+  background-color: #66f;
+  color: #fff;
+  font-size: 18px;
+  float: right;
+  margin-right: 90px;
+  margin-top: 40px;
 }
 
 .App-logo {
