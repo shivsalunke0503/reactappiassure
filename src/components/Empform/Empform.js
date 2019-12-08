@@ -21,7 +21,6 @@ export default class Empform extends Component{
 
 	handleSubmit(event){
 		event.preventDefault();
-		// console.log("state value = ",this.state);
 
 		var formValuesObj = {
 			firstName 	: this.refs.firstName.value,
@@ -35,9 +34,6 @@ export default class Empform extends Component{
 		this.state.formValues.push(formValuesObj);
 		console.log("this.state.formValues = ", this.state.formValues);
 
-		// this.setState({
-		// 	formValues.push(formValuesObj),
-		// });
 	}
 
 	handleRadio(event){
@@ -86,6 +82,16 @@ export default class Empform extends Component{
 				    </form>
 				</section>
 
+			</div>
+
+		);
+	}
+
+}
+
+
+
+/*
 				<section className="listSection"> 
 					{this.state.formValues.length > 0
 					 ?
@@ -98,9 +104,4 @@ export default class Empform extends Component{
 					 	null
 					}
 				</section>
-			</div>
-
-		);
-	}
-
-}
+*/
