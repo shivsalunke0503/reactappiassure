@@ -67,22 +67,24 @@ export default class SecondComponent extends Component{
 
 	render(){
 		var empDetails = this.empDetails();
-		// console.log("empDetails = ",empDetails);
 		return(
-			<div>
-				{
-					empDetails.length > 0 
-					?
-						empDetails.map(
-							(element, index)=>{
-								return <FirstComponent key={index} empDetails={element}/>
-							}
-						)
-					:
-						<h1> Sorry... I don't see any Data </h1>
-				}
-		    	
-		    </div>
+
+	    	<div className="row">
+				<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h1> Employee List </h1>
+					{
+						empDetails.length > 0 
+						?
+							empDetails.map(
+								(element, index)=>{
+									return <FirstComponent key={index} empDetails={element}/>
+								}
+							)
+						:
+							<h1> Sorry... I don't see any Data </h1>
+					}
+	    		</div>
+	    	</div>
 		);
 	}
 
