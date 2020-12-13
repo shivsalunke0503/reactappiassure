@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactappiassure/static/css/main.41aaeb4b.chunk.css",
+    "main.js": "/reactappiassure/static/js/main.0e2cd9c1.chunk.js",
+    "main.js.map": "/reactappiassure/static/js/main.0e2cd9c1.chunk.js.map",
+    "runtime-main.js": "/reactappiassure/static/js/runtime-main.a0f9af8d.js",
+    "runtime-main.js.map": "/reactappiassure/static/js/runtime-main.a0f9af8d.js.map",
+    "static/css/2.8439530f.chunk.css": "/reactappiassure/static/css/2.8439530f.chunk.css",
+    "static/js/2.0eb41659.chunk.js": "/reactappiassure/static/js/2.0eb41659.chunk.js",
+    "static/js/2.0eb41659.chunk.js.map": "/reactappiassure/static/js/2.0eb41659.chunk.js.map",
+    "index.html": "/reactappiassure/index.html",
+    "precache-manifest.631bb9af534b2502e036ef6de5bd4e2a.js": "/reactappiassure/precache-manifest.631bb9af534b2502e036ef6de5bd4e2a.js",
+    "service-worker.js": "/reactappiassure/service-worker.js",
+    "static/css/2.8439530f.chunk.css.map": "/reactappiassure/static/css/2.8439530f.chunk.css.map",
+    "static/css/main.41aaeb4b.chunk.css.map": "/reactappiassure/static/css/main.41aaeb4b.chunk.css.map",
+    "static/js/2.0eb41659.chunk.js.LICENSE": "/reactappiassure/static/js/2.0eb41659.chunk.js.LICENSE",
+    "static/media/all.min.css": "/reactappiassure/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/bootstrap.min.css": "/reactappiassure/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0f9af8d.js",
+    "static/css/2.8439530f.chunk.css",
+    "static/js/2.0eb41659.chunk.js",
+    "static/css/main.41aaeb4b.chunk.css",
+    "static/js/main.0e2cd9c1.chunk.js"
+  ]
+}
